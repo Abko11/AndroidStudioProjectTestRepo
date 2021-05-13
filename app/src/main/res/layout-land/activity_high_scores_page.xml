@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".HighScoresPage">
+
+    <TextView
+        android:id="@+id/highScoresTitle"
+        android:layout_width="326dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="HIGH SCORES"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel4"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 4"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel6"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 6"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel8"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 8"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel10"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 10"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel12"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 12"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel14"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 14"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel16"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 16"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel18"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 18"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreLabel20"
+        android:layout_width="158dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="HIGH SCORE 20"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exitToMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MAIN MENU"
+        app:layout_constraintBottom_toBottomOf="@+id/highScoreLabel4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highScoresTitle"
+        app:layout_constraintVertical_bias="0.241" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
